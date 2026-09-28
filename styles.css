@@ -1,0 +1,58 @@
+body {
+  color: #263238;
+}
+
+.brand {
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.social-links a {
+  color: inherit;
+  font-size: 1.2rem;
+}
+
+header .social-links a {
+  color: #0d6efd;
+}
+
+.hero-image {
+  height: 58vh;
+  min-height: 340px;
+  max-height: 600px;
+  object-fit: cover;
+  filter: brightness(0.58);
+}
+
+.carousel-caption {
+  top: 20%;
+  bottom: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption h1,
+.carousel-caption h2 {
+  max-width: 48rem;
+  font-weight: 700;
+}
+
+.doctor-image {
+  height: 150px;
+  object-fit: cover;
+}
+
+@media (max-width: 575.98px) {
+  .hero-image {
+    height: 55vh;
+    min-height: 320px;
+  }
+
+  .carousel-caption h1,
+  .carousel-caption h2 {
+    font-size: 1.5rem;
+  }
+}
